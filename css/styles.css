@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: grey;
+}
+
+#text {
+  background-color: #0B486B;
+  border-radius: 5px;
+  color: #FFFFFF;
+  height: 25px;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  width: 200px;
+}
+
+.highlighted {
+  -webkit-box-shadow: 0 0 8px #FFD700;
+  -moz-box-shadow: 0 0 8px #FFD700;
+  box-shadow: 0 0 8px #FFD700;
+  cursor:pointer;
+}
