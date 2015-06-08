@@ -1,6 +1,12 @@
+
+
+$blue: #c6538c  ;
+$margin: 16px;
+
 body {
   background-color: black;
-  color: grey; }
+  color: grey;
+}
 
 #text {
   background-color: #0B486B;
@@ -9,21 +15,24 @@ body {
   height: 25px;
   margin: 100px auto 0 auto;
   text-align: center;
-  width: 200px; }
+  width: 200px;
+}
 
 .highlighted {
   -webkit-box-shadow: 0 0 8px #FFD700;
   -moz-box-shadow: 0 0 8px #FFD700;
   box-shadow: 0 0 8px #FFD700;
-  cursor: pointer; }
+  cursor:pointer;
+}
+
 
 .content-navigation {
-  border-color: #c6538c;
-  color: #b13b75; }
+    border-color: $blue;
+    color: darken($blue, 9%);
+}
 
 .border {
-  padding: 8px;
-  margin: 8px;
-  border-color: #c6538c; }
-
-/*# sourceMappingURL=styles.css.map */
+    padding: $margin / 2;
+    margin: $margin / 2;
+    border-color: $blue;
+}
