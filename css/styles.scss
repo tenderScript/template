@@ -1,12 +1,12 @@
 
 
-$blue: #c6538c  ;
+$blue: #c6538c;
 $margin: 16px;
 
 body {
-  background-color: black;
-  color: grey;
-}
+  background-color: $blue;
+  color: pink;
+
 
 #text {
   background-color: #0B486B;
@@ -35,4 +35,6 @@ body {
     padding: $margin / 2;
     margin: $margin / 2;
     border-color: $blue;
+}
+
 }
