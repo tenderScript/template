@@ -1,10 +1,10 @@
 body {
-  background-color: #c6538c;
+  background-color: lightblue;
   color: black; }
-  body #text {
+  body .text {
     background-color: #0B486B;
     border-radius: 5px;
-    color: blue;
+    color: orange;
     height: 25px;
     margin: 100px auto 0 auto;
     text-align: center;
@@ -15,11 +15,9 @@ body {
     box-shadow: 0 0 8px #FFD700;
     cursor: pointer; }
   body .content-navigation {
-    border-color: #c6538c;
-    color: #b13b75; }
+    border-color: grey;
+    color: dimgray; }
   body .border {
-    padding: 8px;
-    margin: 8px;
-    border-color: #c6538c; }
+    border-color: grey; }
 
 /*# sourceMappingURL=styles.css.map */
